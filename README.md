@@ -27,10 +27,8 @@ composer install
 ```
 
 ### Create Database
-```
 first run XAMPP and start apache and sql
 #### Then goto brower and paste
-```
 ```
 http://localhost/phpmyadmin
 ```
@@ -43,7 +41,6 @@ create database after database creation goto .env in the project and add the dat
 DB_DATABASE=social_backend
 ```
 "social_backend" will be your database's name
-```
 ### Migrate
 
 ```
