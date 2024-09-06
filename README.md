@@ -27,19 +27,24 @@ composer install
 ```
 
 ### Create Database
+```
 first run XAMPP and start apache and sql
-Another way: Use laradock - clon and set up enviroment follow your ideas
+```
+Another way: Use laradock - clon and set up enviroment laradock follow your ideas
+```
 
 #### Then goto brower and paste
 ```
 http://localhost/phpmyadmin
 ```
+http://localhost:8081 - If you use laradock
+```
 create database after database creation goto .env in the project and add the database name to
 ```
-DB_DATABASE=social_apis
+DB_DATABASE=social_backend
 ```
-"social_apis" will be your database's name
-
+"social_backend" will be your database's name
+```
 ### Migrate
 
 ```
