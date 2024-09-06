@@ -29,13 +29,12 @@ composer install
 ### Create Database
 ```
 first run XAMPP and start apache and sql
-```
-Another way: Use laradock - clon and set up enviroment laradock follow your ideas
-```
-
 #### Then goto brower and paste
 ```
+```
 http://localhost/phpmyadmin
+```
+Another way: Use laradock - clon and set up enviroment laradock follow your ideas
 ```
 http://localhost:8081 - If you use laradock
 ```
